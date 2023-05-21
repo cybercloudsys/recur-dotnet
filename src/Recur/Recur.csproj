@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Id>Recur</Id>
+    <Title>Recur</Title>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <Version>0.3.0</Version>
+    <Authors>Ahmed Abudaqqa</Authors>
+    <Product>Recur</Product>
+    <Company>Cyber Cloud Systems LLC</Company>
+    <Copyright>Copyright © 2023 Cyber Cloud Systems LLC</Copyright>
+    <PackageProjectUrl>https://github.com/cybercloudsys/recur</PackageProjectUrl>
+    <Description>
+Advanced functionality for precise calculation of recurring events. Create simple or complex event patterns, including custom days or months. Customize off days and generate human-readable pattern representation. Check time alignment and calculate the next occurrence. Ideal for scheduling systems, task automation, and precise recurring event timing.
+    </Description>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageTags>schedule;recurring;events</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <SourceLinkGitRepository>https://github.com/cybercloudsys/recur-dotnet.git</SourceLinkGitRepository>
+    <SourceLinkEnabled>true</SourceLinkEnabled>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DeterministicSourcePaths>true</DeterministicSourcePaths>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <EnablePackageValidation>true</EnablePackageValidation>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+  </ItemGroup>
+</Project>
